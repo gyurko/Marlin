@@ -109,18 +109,18 @@
   #define Z_CS_PIN         40
 #endif
 
-#define E0_STEP_PIN        36
-#define E0_DIR_PIN         34
-#define E0_ENABLE_PIN      30
+#define E0_STEP_PIN        0//36
+#define E0_DIR_PIN         0//34
+#define E0_ENABLE_PIN      0//30
 #ifndef E0_CS_PIN
-  #define E0_CS_PIN        44
+  #define E0_CS_PIN        0//44
 #endif
 
-#define E1_STEP_PIN        36
-#define E1_DIR_PIN         34
-#define E1_ENABLE_PIN      30
+#define E1_STEP_PIN        0//36
+#define E1_DIR_PIN         0//34
+#define E1_ENABLE_PIN      0//30
 #ifndef E1_CS_PIN
-  #define E1_CS_PIN        44
+  #define E1_CS_PIN        0//44
 #endif
 
 #define X2_STEP_PIN 		26
