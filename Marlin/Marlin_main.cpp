@@ -15266,6 +15266,10 @@ void setup() {
   #if ENABLED(USE_WATCHDOG)
     watchdog_init();
   #endif
+  
+  #if ENABLED(SDSUPPORT)
+	card.initsd();
+  #endif
 
   #if ENABLED(HANGPRINTER)
     enable_A();
